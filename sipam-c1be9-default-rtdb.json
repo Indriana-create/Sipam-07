@@ -1,0 +1,95 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "isActive": true,
+      "name": "N Goreng",
+      "price": 15000,
+      "createdDate": "2023/05/30",
+      "updatedDate": "2023/05/30",
+      "img": "http://test.com",
+      "desc": "lorem ipsum"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "name": "B Goreng",
+      "price": 15000
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "name": "C Goreng",
+      "price": 15000
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "name": "A Goreng",
+      "price": 15000
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "name": "B Goreng",
+      "price": 15000
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "name": "C Goreng",
+      "price": 15000
+    },
+    {
+      "id": 7,
+      "isActive": true,
+      "name": "A Goreng",
+      "price": 15000
+    },
+    {
+      "id": 8,
+      "isActive": true,
+      "name": "B Goreng",
+      "price": 15000
+    },
+    {
+      "id": 9,
+      "isActive": true,
+      "name": "C Goreng",
+      "price": 15000
+    },
+    {
+      "id": 10,
+      "isActive": true,
+      "name": "C Goreng",
+      "price": 15000
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "orderNumber": "TRK-23120100001",
+      "queue": 1,
+      "name": "Meidy",
+      "email": "meidy@yopmail.com",
+      "phone": "08123456789",
+      "detailOrder": [
+        {
+          "id": 1,
+          "id_order": 1,
+          "id_product": 10,
+          "qty": 2
+        },
+        {
+          "id": 2,
+          "id_product": 9,
+          "qty": 1
+        }
+      ],
+      "total": 45000,
+      "status": "ORDER",
+      "createdDate": "2023/05/30",
+      "updatedDate": "2023/05/30"
+    }
+  ]
+}
